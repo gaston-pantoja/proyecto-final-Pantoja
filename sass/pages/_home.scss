@@ -147,11 +147,12 @@ main{
         border-radius: 8px;
         margin-bottom: 10px;
     }
-    h3{
+    .texto{
         margin: 10px 0;
         font-size: 1rem;
+        font-weight: bold;
     }
-    p{
+    .precio{
         font-weight: bold;
         color: $tipo-bg;
         margin-top: 10px;
