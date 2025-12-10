@@ -1,0 +1,14 @@
+// VARIABLES
+@use "../utilities/variables" as *;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* index.html */
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: $body-bg;
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Productos</title>
+  <!-- link de bt -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+  <!-- link de css -->
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- link de animacion -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- link de tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="buscador">
+      <form action="#" method="get">
+          <input type="search" name="buscar" placeholder="buscar objeto">
+      </form>
+    </div>
+
+    <div class="contenedor">
+      <a href="index.html" class="logo"><img class="animate__animated animate__bounce"  src="../img/logotipo.webp" alt="Logo tienda" width="120"></a>
+      <nav class="menu">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="tiendas.html">Nuestra Tiendas</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-wrapper">
+        <img src="../img/usuario.png" alt="icono de usuario">
+      </div>
+    </div>
+    
+  </header>
+
+  <main>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+  <div class="bg-dark p-4">
+    <h1 class="text-body-emphasis h4">Collapsed content</h1>
+    <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+    <section class="pagina2">
+      <h2>Catálogo de Productos</h2>
+      <p>Explora nuestra selección completa.</p>
+
+      <!-- productos -->
+      <div class="productos-uno producto-dos">
+        <article class="card imagen-uno img-uno">
+          <img src="../img/apple.jpg" alt="iphone 15 pro max" width="20">
+          <h3>iphone 15 pro max</h3>
+          <p>Disfrutá la máxima potencia con el iPhone 15 Pro Max, diseñado con un chip ultrarrápido, cámara profesional y pantalla de alta nitidez. Ideal para fotos, juegos y trabajo diario con el mejor rendimiento del mercado.</p>
+          <p class="price">$19.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+
+        <article class="card imagen-dos img-dos">
+          <img src="../img/silla ergonomica NOVA.webp" alt="silla ergonomica" width="150">
+          <h3>silla ergonomica NOVA</h3>
+          <p>La silla ergonómica NOVA ofrece soporte lumbar avanzado, respaldo ajustable y materiales transpirables. Perfecta para largas horas de trabajo o estudio, brindando comodidad y postura saludable.</p>
+          <p class="price">$29.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+
+        <article class="card imagen-tres img-tres">
+          <img src="../img/PS5-PRO.jpg" alt="PS5-PRO" width="150">
+          <h3>PS5-PRO digital</h3>
+          <p>Experimentá gráficos de última generación y tiempos de carga ultrarrápidos. La consola 100% ofrece una experiencia inmersiva para juegos AAA, streaming y entretenimiento premium.</p>
+          <p class="price">$39.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+
+        <article class="card imagen-cuatro img-cuatro">
+          <img src="../img/mouse inalambrico.jpg" alt="mouse gamer" width="150">
+          <h3>mouse inalambrico</h3>
+          <p>Este mouse inalámbrico combina precisión, velocidad y un diseño moderno con iluminación RGB. Ideal para gaming y oficina gracias a su comodidad y batería de larga duración.</p>
+          <p class="price">$49.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+
+        <article class="card imagen-cinco img-cinco">
+          <img src="../img/Nvidia RTX 4090.jpg" alt="targeta grafica Nvidia" width="150">
+          <h3>targeta grafica Nvidia rtx 4090</h3>
+          <p>La potencia definitiva para gaming 4K y edición profesional. La RTX 4090 ofrece rendimiento extremo, trazado de rayos avanzado y eficiencia superior para proyectos exigentes.</p>
+          <p class="price">$49.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+
+        <article class="card imagen-seis img-seis">
+          <img src="../img/audifono bluetooth.jpeg" alt="audifono sin cable" width="150">
+          <h3>audifono inalambrico</h3>
+          <p>Sumergite en un sonido nítido y profundo con estos audífonos inalámbricos. Cómodos, ligeros y con batería extendida, son perfectos para música, llamadas o gaming.</p>
+          <p class="price">$49.99</p>
+          <button class="btn">Agregar al carrito</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="derechos">
+      <p class="copy">&copy;Tienda Online. Todos los derechos reservados.</p>
+      <ul class="social">
+        <li>
+          <a target="_blank" href="https://x.com/i/flow/login"><img src="../img/x.png" alt="logotipo de x" width="50"></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.facebook.com/home.php"><img src="../img/facebook.jpg" alt="logotipo de facebook" width="50"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<!-- link de bt -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

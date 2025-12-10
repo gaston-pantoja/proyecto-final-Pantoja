@@ -1,0 +1,41 @@
+// VARIABLES
+@use "../utilities/variables" as *;
+// MIXIN
+@use "../utilities/mixin" as *;
+
+/* Tablet (pantallas medianas) */
+@media (max-width: 1024px){
+    body{
+        font-size: 16px;
+        flex-direction: column;
+    }
+
+    header{
+        width: 100%;
+        background-color: $fondo-bg;
+        margin: 0;
+    }
+
+    .logo{
+        img{
+            border-radius: 10%;
+        }
+    }
+
+    .productos-uno{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "imagen-uno imagen-dos"
+        "imagen-tres imagen-cuatro";
+    }
+
+    .imagen-cuatro{
+        grid-area: imagen-cuatro;
+    }
+
+    footer{
+        width: 100%;
+        background-color: $fondo-bg;
+        margin: 0;
+    }
+}
