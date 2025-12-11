@@ -4,18 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nuestras Tiendas</title>
+  <title>Nuestras Tiendas: Sucursales en Buenos Aires, Córdoba y Mendoza</title>
+  <meta name="description" content="Encuentra la sucursal más cercana. Visítanos en Buenos Aires, Córdoba o Mar del Plata para atención personalizada. ¡Consulta horarios y dirección!">
+  
   <!-- link de bt -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+  
   <!-- link de css -->
   <link rel="stylesheet" href="../css/main.css">
   <!-- link de animacion -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ 
   <!-- link de tipografia -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <div class="buscador">
@@ -55,31 +60,40 @@
   </div>
 </nav>  
     <section class="container">
-      <h1>Nuestras Tiendas</h1>
+      <h1>Encuentra Nuestras Tiendas Físicas en Argentina</h1>
       <p>Visita cualquiera de nuestras sucursales para una atención personalizada.</p>
         <!-- ubicaciones de locales de las tiendas -->
       <div class="productos-uno">
         <article class="card">
           <img src="../img/ejemplo.jpg" alt="Tienda Buenos Aires" width="150">
-          <h2>Buenos Aires</h2>
-          <p>Av. Corrientes 1234, CABA</p>
+          <h2>Tienda Buenos Aires-CABA</h2>
+          <p><span itemprop="streetAddress">Av. Corrientes 1234</span>
+          <span itemprop="addressLocality">CABA</span>
+          <span itemprop="addressRegion">Buenos Aires</span></p>
           <p>Tel: (011) 4567-8900</p>
+          <p>Horario: Lunes a Sábados: <span itemprop="openingHours" content="Mo-Sa 09:00-20:00">09:00 - 20:00</span></p>
           <iframe src="https://www.google.com/maps?q=Av.+Corrientes+1234,+CABA&output=embed" width="100%" height="200" style="border:0;" allowfullscreen loading="lazy"></iframe>
         </article>
 
         <article class="card">
           <img src="../img/ejemplo.jpg" alt="Tienda Córdoba" width="180">
-          <h2>Córdoba</h2>
-          <p>Av. Colón 987, Córdoba Capital</p>
+          <h2>Tienda Córdoba Capital</h2>
+          <p><span itemprop="streetAddress">Av. Colón 987</span>
+          <span itemprop="addressLocality">Córdoba Capital</span>
+          <span itemprop="addressRegion">Córdoba</span></p>
           <p>Tel: (0351) 4321-5678</p>
+          <p>Horario: Lunes a Viernes: <span itemprop="openingHours" content="Mo-Fr 10:00-19:00">10:00 - 19:00</span></p>
           <iframe src="https://www.google.com/maps?q=Av.+Colón+987,+Córdoba&output=embed" width="100%" height="200" style="border:0;" allowfullscreen loading="lazy"></iframe>
         </article>
 
         <article class="card">
           <img src="../img/ejemplo.jpg" alt="Tienda Mendoza" width="180">
-          <h2>Buenos Aires</h2>
-          <p>Juan B. Justo 4275, Mar Del Plata</p>
+          <h2>Tienda Mar del Plata</h2>
+          <p><span itemprop="streetAddress">Juan B. Justo 4275</span>
+          <span itemprop="addressLocality">Mar Del Plata</span>
+          <span itemprop="addressRegion">Buenos Aires</span></p>
           <p>Tel: (0261) 7890-1234</p>
+          <p>Horario: Martes a Sábados: <span itemprop="openingHours" content="Tu-Sa 10:00-18:00">10:00 - 18:00</span></p>
           <iframe src="https://www.google.com/maps?q=Juan+B.+Justo+4275&output=embed" width="100%" height="200" style="border:0;" allowfullscreen loading="lazy"></iframe>
           
         </article>
@@ -89,7 +103,7 @@
 
   <footer>
     <div class="derechos">
-      <p class="copy">&copy; Tienda Online. Todos los derechos reservados.</p>
+      <p class="copy">&copy; © 2025 Tienda Online. Todos los derechos reservados.</p>
       <ul class="social">
         <li>
           <a target="_blank" href="https://x.com/i/flow/login"><img src="../img/x.png" alt="logotipo de x" width="50"></a>

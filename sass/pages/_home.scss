@@ -95,6 +95,7 @@ header{
 
 /* estilos de main*/
 main{
+    background-color: $body-bg;
     text-align: center;
     section{
         div{
@@ -161,7 +162,7 @@ main{
 
 .btn{
     @include btn;
-    :hover{
+    &:hover{
         background-color: $boton-accion;
     }
 }
@@ -197,7 +198,6 @@ footer{
 /* productos.html */
 .pagina2  {
     h1 {
-    color: $tipo-bg;
     text-decoration: underline;
     } 
 }
