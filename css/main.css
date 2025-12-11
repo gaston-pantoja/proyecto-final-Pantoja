@@ -104,10 +104,6 @@ header {
   font-weight: bold;
 }
 
-nav .navbar .bg-custom-gris {
-  background-color: #4B4B4B;
-}
-
 /* estilos de main*/
 main {
   background-color: rgb(9, 96, 182);
@@ -238,9 +234,6 @@ footer {
   .logo img {
     border-radius: 10%;
   }
-  .bg-custom-gris {
-    background-color: #4B4B4B;
-  }
   /*imagenes del los productos en tablet*/
   .productos-uno {
     grid-template-columns: repeat(2, 1fr);
@@ -307,9 +300,6 @@ footer {
   }
   .buscador {
     width: 80%;
-  }
-  .bg-custom-gris {
-    background-color: #4B4B4B;
   }
   /*imagenes del los productos en mobile*/
   .productos-uno {
